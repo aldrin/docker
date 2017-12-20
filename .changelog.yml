@@ -1,0 +1,6 @@
+# Copyright 2017 Aldrin J D'Souza.
+# Licensed under the MIT License <https://opensource.org/licenses/MIT>
+
+categories:
+  - {keyword: "new", title: "New Images"}
+  - {keyword: "update", title: "Updated Images"}

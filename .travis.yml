@@ -1,0 +1,15 @@
+sudo: required
+
+language: c
+
+services:
+  - docker
+
+script:
+  - ./build.sh
+
+deploy:
+  provider: script
+  script: ./build.sh deploy
+  on:
+    branch: master
