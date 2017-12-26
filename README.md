@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/aldrin/docker-build.svg?branch=master)](https://travis-ci.org/aldrin/docker-build)
+[![Build Status](https://travis-ci.org/aldrin/docker.svg?branch=master)](https://travis-ci.org/aldrin/docker)
 
 This repository defines the following Docker images published at: https://hub.docker.com/u/ajdz/
 
@@ -21,7 +21,6 @@ In addition to the release tags the usual `latest` tag is also available.
 
 The `latest` tag aligns with the current `master` and is also built every night. 
 The nightly builds pick updates from underlying images (e.g. `FROM rust`).
-
 
 [mdbook]: https://github.com/rust-lang-nursery/mdBook
 [aldrin/etc]: https://github.com/aldrin/etc

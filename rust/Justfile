@@ -26,7 +26,7 @@ cover:
 	cargo test --target=x86_64-unknown-linux-gnu --no-run --message-format=json | {{ get-test-files }} | xargs -n 1 {{ kcov-cmd }} target/kcov
 
 # Run sanitizers
-test SAN:
+sanitize SAN:
 	RUSTFLAGS="-Z sanitizer={{ SAN }}" rustup run nightly cargo test --target x86_64-unknown-linux-gnu
 
 # Local Variables:
