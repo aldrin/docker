@@ -2,7 +2,7 @@
 # Licensed under the MIT License <https://opensource.org/licenses/MIT>
 
 # kcov runtime arguments
-kcov-cmd="kcov --exclude-pattern=/usr/local/cargo,/usr/lib --verify" 
+kcov-cmd="kcov --exclude-pattern=/usr/local/cargo,/usr/lib,/src/tests --verify" 
 
 # cargo test files are randomly named, this jq pipeline can identify them
 get-test-files="jq -r 'select(.profile.test == true) | .filenames[]'"
