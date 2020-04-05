@@ -25,7 +25,7 @@ RUN rustup update nightly
 RUN cargo install cargo-audit
 RUN cargo install cargo-tree
 RUN cargo install just
-RUN rustup run nightly cargo install clippy
+RUN rustup component add clippy
 
 # Add the Justfile
 ADD Justfile /
